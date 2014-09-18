@@ -1,0 +1,35 @@
+<html>
+<head>
+	<style>
+		@font-face {
+			font-family: Retro;
+			src: url('retro.ttf');
+		}
+		body, canvas {
+			padding: 0px;
+			margin: 0px;
+		}
+
+		canvas {
+			image-rendering: optimizeSpeed;             // Older versions of FF
+		    image-rendering: -moz-crisp-edges;          // FF 6.0+
+		    image-rendering: -webkit-optimize-contrast; // Webkit
+		                                                //  (Safari now, Chrome soon)
+		    image-rendering: -o-crisp-edges;            // OS X & Windows Opera (12.02+)
+		    image-rendering: optimize-contrast;         // Possible future browsers.
+		    -ms-interpolation-mode: nearest-neighbor; 
+		}
+	</style>
+</head>
+<body>
+	<canvas id="myCanvas">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="Keyboard.js"></script>
+	<script src="howler.min.js"></script>
+	<script src="rAF.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.2/plugins/CSSPlugin.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.2/easing/EasePack.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.2/TweenLite.min.js"></script>
+	<script src="Eximo.min.js"></script>
+	<script src="defteros.js"></script>
+</body>

@@ -1,0 +1,18 @@
+{
+  "name": "defteros",
+  "version": "0.0.1",
+  "description": "dasilvacontin's LD48 #27 entry",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AirRider3/defteros.git"
+  },
+  "author": "David da Silva Contin",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/AirRider3/defteros/issues"
+  }
+}
